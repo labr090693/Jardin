@@ -22,10 +22,8 @@
 <script type="text/javascript">
   
    $(document).ready(function() {
-		
-		          $("#menu").kendoMenu();
-
-            });
+      $("#menu").kendoMenu();
+    });
 </script>
 
 
