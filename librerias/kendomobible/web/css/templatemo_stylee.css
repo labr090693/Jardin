@@ -1,0 +1,23 @@
+
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	height: 60px;
+	width: 65px;
+	margin-left: 10px;
+	padding: 6px 5px 0 5px;
+	text-align: center;
+	font-size: 12px;
+	text-decoration: none;
+	color: #fff;	
+	font-weight: normal;
+	outline: none;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current {
+	background: url(../images/menu_active.jpg) no-repeat;
+}
+/* end of menu */
+
+/* content */
