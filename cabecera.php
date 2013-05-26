@@ -22,14 +22,17 @@
 <script type="text/javascript">
   
    $(document).ready(function() {
-      $("#menu").kendoMenu();
-    });
+		
+		          $("#menu").kendoMenu();
+
+            });
 </script>
 
 
 <style type="text/css">
 body {
-	background-color: #0F3; background-image:url(http://localhost/jardin/imagenes/fondo.jpg);
+    background-image:url(<?php echo $_SESSION['urlbase']; ?>imagenes/fondo.jpg);
+    
 }
 body,td,th {
 	font-family: Arial, Helvetica, sans-serif;
@@ -52,13 +55,8 @@ a:active {
 }
 .asas {
 	color: #0F0;
+        float: right;
 }
-.nombre{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.fotoperfil{ height:50px; width:50px; }
 
 .modulos {
         background: rgba(0,0,0,0.5);
@@ -67,40 +65,39 @@ a:active {
 
 li {
     color: #0F0;
+    
 }
 
 .usuario {
-    float:right;
+    float: right;
+    padding-right: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
 </style>
-
-<br>
-<br>
-
-<table  class="modulos" width="1000" height="500" border="0" align="center" cellpadding="0" cellspacing="0">
-
-    <tr class="usuario">
-        <td>
-        <span class="asas">Usuario: <?php echo $_SESSION['usuario']; ?></span>
+<table  class="modulos" width="1080" height="500" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr >
+    <td height="40" class="usuario" >
+        <span class="asas" >Usuario: <?php echo $_SESSION['usuario']; ?></span>
         <br>
         <span class="asas">Nombre: <?php echo $_SESSION['nombre'] ?></span>  
         <br>
         <span class="asas"><a href='".<?php $_SESSION['urlbase'] ?>."cerrar_sesion.php' class='btn btn-danger'>Salir</a></span>
         </td>
-        <td>
-          <img src="http://localhost/jardin/imagenes/usuarios.png" width="10" height="10" class="fotoperfil" style="padding-right: 10px"/> 
-        </td>
-    </tr>
-    <td>
+  </tr> 
+  <tr>
+    <td height="25" colspan="2">
+    
+
+
      <?php 			    
 				$DOMINIOADMIN=$_SESSION['urlbase']."modulos/";
 				$urladmin=$_SESSION['urlbase']."modulos/";
 			    echo "<ul id='menu'> ";
 			    cargarmenu("0",$DOMINIOADMIN);// Donde 0 es el Idpadre principal
-			  
+			      
 			   function cargarmenu($id,$urladmin)
 			   {
 				   $sql="select idmodulo, descripcion,url,idpadre from modulo where idpadre='$id' order by descripcion";
