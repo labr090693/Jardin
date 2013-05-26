@@ -57,10 +57,7 @@ a:active {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#derecha{
-    padding-top:5px;
-    float:right;
-}
+
 .fotoperfil{ height:50px; width:50px; }
 
 .modulos {
@@ -86,7 +83,7 @@ li {
 <table  class="modulos" width="1000" height="500" border="0" align="center" cellpadding="0" cellspacing="0">
 
     <tr class="usuario">
-        <td height="40" >
+        <td>
         <span class="asas">Usuario: <?php echo $_SESSION['usuario']; ?></span>
         <br>
         <span class="asas">Nombre: <?php echo $_SESSION['nombre'] ?></span>  
@@ -96,11 +93,8 @@ li {
         <td>
           <img src="http://localhost/jardin/imagenes/usuarios.png" width="10" height="10" class="fotoperfil" style="padding-right: 10px"/> 
         </td>
-    <tr>
-    <td height="25" colspan="2">
-    
-
-
+    </tr>
+    <td>
      <?php 			    
 				$DOMINIOADMIN=$_SESSION['urlbase']."modulos/";
 				$urladmin=$_SESSION['urlbase']."modulos/";

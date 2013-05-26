@@ -9,6 +9,7 @@
         float:left;
     }    
 </style>
+
 <div class="posicion">
      <div class="tabbable">
         <ul class="nav nav-tabs">
