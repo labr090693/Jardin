@@ -60,7 +60,7 @@ a:active {
 
 .modulos {
         background: rgba(0,0,0,0.5);
-	-webkit-border-radius:20px 20px 20px 20px;
+        
 }
 
 li {
@@ -77,14 +77,14 @@ li {
 
 
 </style>
-<table  class="modulos" width="1080" height="500" border="0" align="center" cellpadding="0" cellspacing="0">
+<table  class="modulos" width="1300" height="100%" border="0" align="center">
   <tr >
     <td height="40" class="usuario" >
         <span class="asas" >Usuario: <?php echo $_SESSION['usuario']; ?></span>
         <br>
         <span class="asas">Nombre: <?php echo $_SESSION['nombre'] ?></span>  
         <br>
-        <span class="asas"><a href='".<?php $_SESSION['urlbase'] ?>."cerrar_sesion.php' class='btn btn-danger'>Salir</a></span>
+        <span class="asas"><a href='http://localhost/Jardin/cerrar_sesion.php' class='btn btn-danger'>Salir</a></span>
         </td>
   </tr> 
   <tr>

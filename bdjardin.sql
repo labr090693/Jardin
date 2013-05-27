@@ -4,7 +4,7 @@ Source Host: localhost
 Source Database: bdjardin
 Target Host: localhost
 Target Database: bdjardin
-Date: 25/05/2013 08:09:43 p.m.
+Date: 26/05/2013 05:18:23 p.m.
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -138,7 +138,6 @@ DELIMITER ;
 -- ----------------------------
 INSERT INTO `modulo` VALUES ('1', 'Seguridad', '0', '#');
 INSERT INTO `modulo` VALUES ('2', 'Matricula', '0', '#');
-INSERT INTO `modulo` VALUES ('3', 'Asistencia', '0', '#');
 INSERT INTO `modulo` VALUES ('4', 'Modulos', '1', 'seguridad/modulos/');
 INSERT INTO `modulo` VALUES ('5', 'Perfiles', '1', 'seguridad/perfiles/');
 INSERT INTO `modulo` VALUES ('6', 'Permisos', '1', 'seguridad/permisos/');
@@ -155,5 +154,5 @@ INSERT INTO `perfil_modulo` VALUES ('5', '1');
 INSERT INTO `perfil_modulo` VALUES ('6', '1');
 INSERT INTO `perfil_modulo` VALUES ('7', '0');
 INSERT INTO `perfil_modulo` VALUES ('7', '1');
-INSERT INTO `usuario` VALUES ('1', 'Luis Angel', 'admin', '123', '2013-05-11', '2013-05-23 03:55:44', '0', '1', '1');
-INSERT INTO `usuario` VALUES ('2', 'linder alexander', 'alexander', '123', '2013-05-17', '2013-05-26 00:13:18', '0', '1', '1');
+INSERT INTO `usuario` VALUES ('1', 'Luis Angel', 'admin', '123', '2013-05-11', '2013-05-26 23:32:45', '0', '1', '1');
+INSERT INTO `usuario` VALUES ('2', 'linder alexander', 'alexander', '123', '2013-05-17', '2013-05-26 23:58:53', '0', '1', '1');
