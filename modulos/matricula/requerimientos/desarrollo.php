@@ -1,20 +1,27 @@
-<form style="float: right; padding-right: 80px">
-                   <table><br><br>
+<form style="float: left; padding-left: 30px;">
+                   <table>
                        <tr>
-                           <td>LENGUAJE :</td>
-                       </tr>
-                       <tr>
-                           <td>Sus primeras palabras</td>
-                           <td><input class="input-mini" name="palabras" type="text"></td>  
-                       </tr>
-                       <tr>
-                           <td>Hablo con fluidez</td>
-                           <td><input class="input-mini" name="fluidez" type="text"></td>  
-                       </tr>
-                   </table>
+                            <td>Nacimiento</td>
+                            <td>
+                                <label class="checkbox inline">
+                                Normal<input name="normal" type="checkbox">
+                                </label>
+                                <label class="checkbox inline">
+                                Con Complicaciones<input name="complicaciones" type="checkbox">
+                                </label>
+                            </td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <td>Observaciones</td>
+                            <td><textarea rows="4" name="observaciones"></textarea></td>
+                        </tr>
+                    </table> 
                </form>
-               
-               <form style="float: right; padding-right: 40px">
+
+
+
+<form style="float: left; padding-left: 80px;">
                    <span style="padding-left: 180px;">OBLIGATORIO PARA NIVEL INICIAL</span>
                    <br><br>
                    <table>
@@ -43,23 +50,21 @@
                        </tr>
                    </table>
                </form>
-               <form style="padding-left: 40px;">
-                   <table>
+               
+
+
+<form style="float: left;">
+                   <table><br><br>
                        <tr>
-                            <td>Nacimiento</td>
-                            <td>
-                                <label class="checkbox inline">
-                                Normal<input name="normal" type="checkbox">
-                                </label>
-                                <label class="checkbox inline">
-                                Con Complicaciones<input name="complicaciones" type="checkbox">
-                                </label>
-                            </td>
-                        </tr>
-                        <br>
-                        <tr>
-                            <td>Observaciones</td>
-                            <td><textarea rows="4" name="observaciones"></textarea></td>
-                        </tr>
-                    </table> 
+                           <td>LENGUAJE :</td>
+                       </tr>
+                       <tr>
+                           <td>Sus primeras palabras</td>
+                           <td><input class="input-mini" name="palabras" type="text"></td>  
+                       </tr>
+                       <tr>
+                           <td>Hablo con fluidez</td>
+                           <td><input class="input-mini" name="fluidez" type="text"></td>  
+                       </tr>
+                   </table>
                </form>

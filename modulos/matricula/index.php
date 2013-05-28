@@ -15,7 +15,7 @@
     }
     
     .tabla2 {
-        float: right;
+        float: left;
         padding-right: 30px;
     }
 </style>
@@ -25,17 +25,17 @@
         <ul class="nav nav-tabs">
             <li class="active"><a href="#tab1" data-toggle="tab">Matr&iacute;cula</a></li>
             <li><a href="#tab2" data-toggle="tab">Alumno</a></li>
-            <li><a href="#tab3" data-toggle="tab">Desarrollo</a></li>
-            <li><a href="#tab4" data-toggle="tab">Control Salud</a></li>
-            <li><a href="#tab5" data-toggle="tab">Estado Salud</a></li>
+            <li><a href="#tab3" data-toggle="tab">Desarrollo del Ni&nacute;o</a></li>
+            <li><a href="#tab4" data-toggle="tab">Control de Salud</a></li>
+            <li><a href="#tab5" data-toggle="tab">Estado de Salud</a></li>
             <li><a href="#tab6" data-toggle="tab">Domicilio</a></li>
-            <li><a href="#tab7" data-toggle="tab">Datos Familiares</a></li>
+            <li><a href="#tab7" data-toggle="tab">Datos de Familiares</a></li>
             <li><a href="#tab8" data-toggle="tab">Situacion laboral</a></li>
-            <li><a href="#tab9" data-toggle="tab">Escolaridad Alumno</a></li>
+            <li><a href="#tab9" data-toggle="tab">Escolaridad del Alumno</a></li>
             <li><a href="#tab10" data-toggle="tab">Translados</a></li>
-            <li><a href="#tab11" data-toggle="tab">Responsable Matricula</a></li>
+            <li><a href="#tab11" data-toggle="tab">Responsable de Matricula</a></li>
             <li><a href="#tab12" data-toggle="tab">Apoderado</a></li>
-            <li><a href="#tab13" data-toggle="tab">Supervivencia</a></li>
+            <li><a href="#tab13" data-toggle="tab">Supervivencia de los Padres </a></li>
         </ul>
         <div class="tab-content">
            <div class="tab-pane active" id="tab1">
